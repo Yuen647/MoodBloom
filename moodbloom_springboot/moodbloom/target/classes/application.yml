@@ -1,0 +1,106 @@
+spring:
+  application:
+    name: moodbloom
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/moodbloom_db?characterEncoding=utf-8
+    username: root
+    password: Led647716
+#  datasource:
+#    url: jdbc:mysql://124.222.156.13:3306/moodbloom_db?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+#    username: share
+#    password: '#Led647716'
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+        format_sql: true
+
+  security:
+    user:
+      name: 1
+      password: 1
+
+  servlet:
+    multipart:
+      max-file-size: 100MB    # 单个文件最大大小
+      max-request-size: 500MB # 总请求大小
+
+server:
+  port: 8800
+  forward-headers-strategy: framework
+
+jackson:
+  serialization:
+    indent_output: true
+
+baidu:
+  nlp:
+    api-url: https://aip.baidubce.com/rpc/2.0/nlp/v1/sentiment_classify
+    access-token: 24.ec6c793f644f73ebc430e234b9050eff.2592000.1729571332.282335-115644524
+
+weather-api:
+  key: zda6e38ivoov0cbjx607oh12l3ddeh7b
+  base-url: https://eolink.o.apispace.com/456456/weather/v001/now
+
+chatglm-api:
+  url: https://open.bigmodel.cn/api/paas/v4/chat/completions
+  key: f9990643faa52cb57ab08c1ee3a498cc.db2kUmJw19Ccjfff
+  model: glm-4
+
+soup-quotes:
+  api:
+    key: c08415d16aae86f01f2b02157dd3ec7f
+    url: https://apis.juhe.cn/fapig/soup/query
+
+
+news:
+  api:
+    key: f32188420603a20434462e0c48bd82ac
+    url: http://v.juhe.cn/toutiao/index
+    type: top
+    page: 1
+    page_size: 7
+    is_filter: 1
+
+pic:
+  space:
+    token: zda6e38ivoov0cbjx607oh12l3ddeh7b
+  txt2img:
+    url: https://23329.o.apispace.com/aigc/txt2img
+  query:
+    image:
+      url: https://23329.o.apispace.com/aigc/query-image
+
+
+logging:
+  level:
+    org:
+      hibernate:
+        SQL: DEBUG
+        type:
+          descriptor:
+            sql:
+              BasicTypeDescriptor: TRACE
+      springframework:
+        security: DEBUG
+
+file:
+  upload-dir: /home/lighthouse/images/
+
+
+
+
+
+
+
+
+
+
+
+
