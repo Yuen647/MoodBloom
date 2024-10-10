@@ -1,0 +1,77 @@
+@startuml
+actor 用户 as User
+participant "用户界面" as UI
+participant "MoodRecordController" as Controller
+participant "身份验证服务" as AuthService
+participant "MoodRecordService" as MoodRecordService
+participant "MoodRecordRepository" as MoodRecordRepo
+participant "LocationService" as LocationService
+participant "WeatherService" as WeatherService
+participant "MoodAnalysisService" as AnalysisService
+participant "UploadImageService" as ImageService
+
+' 用户操作开始
+User -> UI : 输入心情记录并提交
+activate UI
+
+UI -> Controller : 发送心情记录请求 (addMoodRecord)
+activate Controller
+
+' 用户身份验证
+Controller -> AuthService : 验证用户身份
+activate AuthService
+AuthService --> Controller : 身份验证结果 (成功/失败)
+deactivate AuthService
+
+alt 身份验证成功
+    ' 心情记录处理开始
+    Controller -> MoodRecordService : 调用添加心情记录服务 (addMoodRecord)
+    activate MoodRecordService
+    
+    ' 获取位置服务
+    MoodRecordService -> LocationService : 获取用户位置 (getLatestLocation)
+    activate LocationService
+    LocationService --> MoodRecordService : 返回位置数据
+    deactivate LocationService
+    
+    ' 获取天气服务
+    MoodRecordService -> WeatherService : 获取天气信息 (fetchWeatherInfo)
+    activate WeatherService
+    WeatherService --> MoodRecordService : 返回天气数据
+    deactivate WeatherService
+    
+    ' 调用情感分析服务
+    MoodRecordService -> AnalysisService : 进行情感分析 (analyzeMood)
+    activate AnalysisService
+    AnalysisService --> MoodRecordService : 返回分析结果
+    deactivate AnalysisService
+    
+    ' 保存心情记录
+    MoodRecordService -> MoodRecordRepo : 保存心情记录 (save)
+    activate MoodRecordRepo
+    MoodRecordRepo --> MoodRecordService : 返回保存结果
+    deactivate MoodRecordRepo
+
+    ' 处理图片上传
+    MoodRecordService -> ImageService : 处理图片上传 (saveImage)
+    activate ImageService
+    ImageService --> MoodRecordService : 图片保存完成
+    deactivate ImageService
+
+    ' 返回服务结果
+    MoodRecordService --> Controller : 服务处理完成
+    deactivate MoodRecordService
+
+    ' 返回最终结果给用户界面
+    Controller --> UI : 操作成功，返回心情记录和分析结果
+    deactivate Controller
+
+else 身份验证失败
+    Controller --> UI : 显示身份验证失败信息
+    deactivate Controller
+end
+
+' 用户界面将最终结果返回给用户
+UI --> User : 显示最终结果
+deactivate UI
+@enduml
