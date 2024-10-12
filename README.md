@@ -3,7 +3,8 @@
 一款智能日记系统，可以写点东西~
 
 **演示视频**
-<video src=".doc/res/1.mp4" position= "absolute" width="100%" height="100%" controls="controls"></video>
+
+<center><img src="./doc/res/demo.gif"></center>
 
 # 配置与部署说明
 

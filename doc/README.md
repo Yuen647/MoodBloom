@@ -90,7 +90,7 @@
 
 #### 2.3 数据库ER图设计
 
-<img src="C:/Users/%E6%9D%8E%E6%B2%85%E8%A1%A1/Desktop/report/res/ER.png" style="zoom:50%;" />
+<img src="./res/ER.png" style="zoom:50%;" />
 
 #### 2.4 类图设计
 
@@ -277,9 +277,14 @@
   }
   ```
 
-  
 
-### 5. 使用的 Web API
+
+
+### 5. 项目成果演示
+
+<center><img src="./res/demo.gif"></center>
+
+### 6. 使用的 Web API
 
 在本项目中，使用了以下 Web API，以实现不同功能模块。每个 API 的使用场景及其集成方式具体描述如下：
 
