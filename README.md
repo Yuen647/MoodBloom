@@ -2,6 +2,9 @@
 
 一款智能日记系统，可以写点东西~
 
+**演示视频**
+<video src=".doc/res/1.mp4" position= "absolute" width="100%" height="100%" controls="controls"></video>
+
 # 配置与部署说明
 
 本项目由后端（基于 Spring Boot）和前端（基于 Vue.js）组成。以下详细描述了系统的配置与部署步骤，以便开发人员能够高效、准确地完成安装和部署。
