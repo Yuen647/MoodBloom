@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ab8de133-24b8-4133-8942-d42be3064f0c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/src/main/java/sheerio/moodbloom/moodbloom/MoodbloomApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/src/main/java/sheerio/moodbloom/moodbloom/config/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/src/main/java/sheerio/moodbloom/moodbloom/config/CorsConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/src/main/java/sheerio/moodbloom/moodbloom/config/TextRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/src/main/java/sheerio/moodbloom/moodbloom/controller/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/src/main/java/sheerio/moodbloom/moodbloom/controller/LocationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/src/main/java/sheerio/moodbloom/moodbloom/controller/ModelResponseController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/src/main/java/sheerio/moodbloom/moodbloom/controller/MoodAnalysisController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/src/main/java/sheerio/moodbloom/moodbloom/controller/MoodRecordController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/src/main/java/sheerio/moodbloom/moodbloom/controller/NewsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/src/main/java/sheerio/moodbloom/moodbloom/controller/SoupQuotesController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/src/main/java/sheerio/moodbloom/moodbloom/controller/TextToImageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/src/main/java/sheerio/moodbloom/moodbloom/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/src/main/java/sheerio/moodbloom/moodbloom/controller/WeatherController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/src/main/java/sheerio/moodbloom/moodbloom/dao/Interface/LocationRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/src/main/java/sheerio/moodbloom/moodbloom/dao/Interface/ModelResponseRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/src/main/java/sheerio/moodbloom/moodbloom/dao/Interface/MoodAnalysisRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/src/main/java/sheerio/moodbloom/moodbloom/dao/Interface/MoodRecordRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/src/main/java/sheerio/moodbloom/moodbloom/dao/Interface/NewsRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/src/main/java/sheerio/moodbloom/moodbloom/dao/Interface/SoupQuotesRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/src/main/java/sheerio/moodbloom/moodbloom/dao/Interface/UploadImageRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/src/main/java/sheerio/moodbloom/moodbloom/dao/Interface/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/src/main/java/sheerio/moodbloom/moodbloom/dao/Interface/WeatherInfoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/src/main/java/sheerio/moodbloom/moodbloom/dao/model/Location.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/src/main/java/sheerio/moodbloom/moodbloom/dao/model/ModelResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/src/main/java/sheerio/moodbloom/moodbloom/dao/model/MoodAnalysis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/src/main/java/sheerio/moodbloom/moodbloom/dao/model/MoodRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/src/main/java/sheerio/moodbloom/moodbloom/dao/model/News.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/src/main/java/sheerio/moodbloom/moodbloom/dao/model/SoupQuotes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/src/main/java/sheerio/moodbloom/moodbloom/dao/model/UploadImage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/src/main/java/sheerio/moodbloom/moodbloom/dao/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/src/main/java/sheerio/moodbloom/moodbloom/dao/model/WeatherInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/src/main/java/sheerio/moodbloom/moodbloom/service/LocationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/src/main/java/sheerio/moodbloom/moodbloom/service/ModelResponseService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/src/main/java/sheerio/moodbloom/moodbloom/service/MoodAnalysisService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/src/main/java/sheerio/moodbloom/moodbloom/service/MoodRecordService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/src/main/java/sheerio/moodbloom/moodbloom/service/NewsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/src/main/java/sheerio/moodbloom/moodbloom/service/ScheduledTasks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/src/main/java/sheerio/moodbloom/moodbloom/service/SoupQuotesService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/src/main/java/sheerio/moodbloom/moodbloom/service/TextToImageService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/src/main/java/sheerio/moodbloom/moodbloom/service/UploadImageService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/src/main/java/sheerio/moodbloom/moodbloom/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/src/main/java/sheerio/moodbloom/moodbloom/service/WeatherService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/src/test/java/sheerio/moodbloom/moodbloom/MoodbloomApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/target/classes/sheerio/moodbloom/moodbloom/MoodbloomApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/target/classes/sheerio/moodbloom/moodbloom/config/AppConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/target/classes/sheerio/moodbloom/moodbloom/config/CorsConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/target/classes/sheerio/moodbloom/moodbloom/config/TextRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/target/classes/sheerio/moodbloom/moodbloom/controller/HomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/target/classes/sheerio/moodbloom/moodbloom/controller/LocationController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/target/classes/sheerio/moodbloom/moodbloom/controller/ModelResponseController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/target/classes/sheerio/moodbloom/moodbloom/controller/MoodAnalysisController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/target/classes/sheerio/moodbloom/moodbloom/controller/MoodRecordController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/target/classes/sheerio/moodbloom/moodbloom/controller/NewsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/target/classes/sheerio/moodbloom/moodbloom/controller/SoupQuotesController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/target/classes/sheerio/moodbloom/moodbloom/controller/TextToImageController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/target/classes/sheerio/moodbloom/moodbloom/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/target/classes/sheerio/moodbloom/moodbloom/controller/WeatherController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/target/classes/sheerio/moodbloom/moodbloom/dao/Interface/LocationRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/target/classes/sheerio/moodbloom/moodbloom/dao/Interface/ModelResponseRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/target/classes/sheerio/moodbloom/moodbloom/dao/Interface/MoodAnalysisRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/target/classes/sheerio/moodbloom/moodbloom/dao/Interface/MoodRecordRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/target/classes/sheerio/moodbloom/moodbloom/dao/Interface/NewsRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/target/classes/sheerio/moodbloom/moodbloom/dao/Interface/SoupQuotesRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/target/classes/sheerio/moodbloom/moodbloom/dao/Interface/UploadImageRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/target/classes/sheerio/moodbloom/moodbloom/dao/Interface/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/target/classes/sheerio/moodbloom/moodbloom/dao/Interface/WeatherInfoRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/target/classes/sheerio/moodbloom/moodbloom/dao/model/Location.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/target/classes/sheerio/moodbloom/moodbloom/dao/model/ModelResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/target/classes/sheerio/moodbloom/moodbloom/dao/model/MoodAnalysis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/target/classes/sheerio/moodbloom/moodbloom/dao/model/MoodRecord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/target/classes/sheerio/moodbloom/moodbloom/dao/model/News.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/target/classes/sheerio/moodbloom/moodbloom/dao/model/SoupQuotes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/target/classes/sheerio/moodbloom/moodbloom/dao/model/UploadImage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/target/classes/sheerio/moodbloom/moodbloom/dao/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/target/classes/sheerio/moodbloom/moodbloom/dao/model/WeatherInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/target/classes/sheerio/moodbloom/moodbloom/service/LocationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/target/classes/sheerio/moodbloom/moodbloom/service/ModelResponseService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/target/classes/sheerio/moodbloom/moodbloom/service/MoodAnalysisService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/target/classes/sheerio/moodbloom/moodbloom/service/MoodRecordService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/target/classes/sheerio/moodbloom/moodbloom/service/NewsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/target/classes/sheerio/moodbloom/moodbloom/service/ScheduledTasks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/target/classes/sheerio/moodbloom/moodbloom/service/SoupQuotesService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/target/classes/sheerio/moodbloom/moodbloom/service/TextToImageService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/target/classes/sheerio/moodbloom/moodbloom/service/UploadImageService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/target/classes/sheerio/moodbloom/moodbloom/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/target/classes/sheerio/moodbloom/moodbloom/service/WeatherService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/target/moodbloom-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/target/moodbloom-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_springboot/moodbloom/target/test-classes/sheerio/moodbloom/moodbloom/MoodbloomApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_vue/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_vue/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_vue/babel.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_vue/jsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_vue/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_vue/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_vue/public/audio/soy.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_vue/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_vue/public/favicon2.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_vue/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_vue/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_vue/src/assets/default.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_vue/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_vue/src/assets/record-mood-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_vue/src/assets/view-mood-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_vue/src/components/CalendarNav.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_vue/src/components/LocationMap.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_vue/src/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_vue/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_vue/src/router/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_vue/src/views/HomePage.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_vue/src/views/LoginAndRegister.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_vue/src/views/NewsPage.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_vue/src/views/RecordMood.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_vue/src/views/ViewMood.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../moodbloom_vue/vue.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../repopack-output.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Kotlin Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2mIB5rQNZ6P8PVXKyJ8qv6b48CK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Maven.moodbloom [package].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.MoodbloomApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/李沅衡/Desktop/MoodBloom/backend/moodbloom/pom.xml",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "http.proxy",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="MoodbloomApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="moodbloom" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="sheerio.moodbloom.moodbloom.MoodbloomApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ab8de133-24b8-4133-8942-d42be3064f0c" name="Changes" comment="" />
+      <created>1726754030252</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726754030252</updated>
+      <workItem from="1726754031458" duration="609000" />
+      <workItem from="1726806932867" duration="4630000" />
+      <workItem from="1726811998214" duration="19627000" />
+      <workItem from="1726916949821" duration="7421000" />
+      <workItem from="1726926906286" duration="15001000" />
+      <workItem from="1727002237296" duration="7000" />
+      <workItem from="1727002307618" duration="18000" />
+      <workItem from="1727002354467" duration="9731000" />
+      <workItem from="1727096379060" duration="3291000" />
+      <workItem from="1727164093421" duration="1433000" />
+      <workItem from="1727230633637" duration="68441000" />
+      <workItem from="1727754039054" duration="21929000" />
+      <workItem from="1728215486116" duration="2331000" />
+      <workItem from="1728370107854" duration="1631000" />
+      <workItem from="1728713715589" duration="1925000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.springframework.beans.factory.BeanCreationException" package="org.springframework.beans.factory" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

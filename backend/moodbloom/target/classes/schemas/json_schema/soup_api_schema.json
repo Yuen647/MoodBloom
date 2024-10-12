@@ -1,0 +1,34 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "#/definitions/SoupAPISchema",
+  "definitions": {
+    "SoupAPISchema": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "reason": {
+          "type": "string"
+        },
+        "result": {
+          "$ref": "#/definitions/Result"
+        },
+        "error_code": {
+          "type": "integer"
+        }
+      },
+      "required": ["error_code", "reason", "result"],
+      "title": "SoupAPISchema"
+    },
+    "Result": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "text": {
+          "type": "string"
+        }
+      },
+      "required": ["text"],
+      "title": "Result"
+    }
+  }
+}

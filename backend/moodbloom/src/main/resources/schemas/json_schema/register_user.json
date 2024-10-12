@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "#/definitions/RegisterUser",
+  "definitions": {
+    "RegisterUser": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "createdAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "id": {
+          "type": "integer"
+        },
+        "email": {
+          "type": "string"
+        },
+        "username": {
+          "type": "string"
+        }
+      },
+      "required": ["createdAt", "email", "id", "username"],
+      "title": "RegisterUser"
+    }
+  }
+}

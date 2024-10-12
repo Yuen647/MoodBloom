@@ -1,0 +1,82 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "array",
+  "items": {
+    "$ref": "#/definitions/LatestNew"
+  },
+  "definitions": {
+    "LatestNew": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "uniquekey": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "qt-uri-protocols": ["https"],
+          "qt-uri-extensions": [".html"]
+        },
+        "category": {
+          "type": "string"
+        },
+        "authorName": {
+          "type": "string"
+        },
+        "date": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "thumbnailPicS": {
+          "type": "string",
+          "qt-uri-protocols": ["https"],
+          "qt-uri-extensions": [".jpeg"]
+        },
+        "thumbnailPicS02": {
+          "type": "string",
+          "qt-uri-protocols": ["https"],
+          "qt-uri-extensions": [".jpeg"]
+        },
+        "thumbnailPicS03": {
+          "type": "string",
+          "qt-uri-protocols": ["https"],
+          "qt-uri-extensions": [".jpeg"]
+        },
+        "isContent": {
+          "type": "boolean"
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": [
+        "authorName",
+        "category",
+        "createdAt",
+        "date",
+        "id",
+        "isContent",
+        "thumbnailPicS",
+        "thumbnailPicS02",
+        "thumbnailPicS03",
+        "title",
+        "uniquekey",
+        "updatedAt",
+        "url"
+      ],
+      "title": "LatestNew"
+    }
+  }
+}

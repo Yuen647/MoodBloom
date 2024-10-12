@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "#/definitions/ChatglmAPISchema",
+  "definitions": {
+    "ChatglmAPISchema": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "created": {
+          "type": "integer"
+        },
+        "id": {
+          "type": "string"
+        },
+        "model": {
+          "type": "string"
+        },
+        "request_id": {
+          "type": "string"
+        },
+        "choices": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Choice"
+          }
+        },
+        "usage": {
+          "$ref": "#/definitions/Usage"
+        }
+      },
+      "required": ["choices", "created", "id", "model", "request_id", "usage"],
+      "title": "ChatglmAPISchema"
+    },
+    "Choice": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "finish_reason": {
+          "type": "string"
+        },
+        "index": {
+          "type": "integer"
+        },
+        "message": {
+          "$ref": "#/definitions/Message"
+        }
+      },
+      "required": ["finish_reason", "index", "message"],
+      "title": "Choice"
+    },
+    "Message": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "content": {
+          "type": "string"
+        },
+        "role": {
+          "type": "string"
+        }
+      },
+      "required": ["content", "role"],
+      "title": "Message"
+    },
+    "Usage": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "completion_tokens": {
+          "type": "integer"
+        },
+        "prompt_tokens": {
+          "type": "integer"
+        },
+        "total_tokens": {
+          "type": "integer"
+        }
+      },
+      "required": ["completion_tokens", "prompt_tokens", "total_tokens"],
+      "title": "Usage"
+    }
+  }
+}

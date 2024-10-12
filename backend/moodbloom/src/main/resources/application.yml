@@ -91,7 +91,9 @@ logging:
         security: DEBUG
 
 file:
-  upload-dir: /home/lighthouse/images/
+#  upload-dir: /home/lighthouse/images/
+  upload-dir: "G:\\Temp"
+
 
 
 

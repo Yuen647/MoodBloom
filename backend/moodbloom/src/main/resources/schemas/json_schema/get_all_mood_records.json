@@ -1,0 +1,175 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "#/definitions/GetAllMoodRecords",
+  "definitions": {
+    "GetAllMoodRecords": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "moodRecords": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/MoodRecord"
+          }
+        },
+        "aiResponses": {
+          "$ref": "#/definitions/AIResponses"
+        }
+      },
+      "required": ["aiResponses", "moodRecords"],
+      "title": "GetAllMoodRecords"
+    },
+    "AIResponses": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "128": {
+          "type": "string"
+        }
+      },
+      "required": ["128"],
+      "title": "AIResponses"
+    },
+    "MoodRecord": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "moodText": {
+          "type": "string"
+        },
+        "recordTime": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "location": {
+          "$ref": "#/definitions/Location"
+        },
+        "weatherInfo": {
+          "$ref": "#/definitions/WeatherInfo"
+        },
+        "moodAnalysis": {
+          "$ref": "#/definitions/MoodAnalysis"
+        },
+        "user": {
+          "$ref": "#/definitions/User"
+        },
+        "images": {
+          "type": "array",
+          "items": {}
+        }
+      },
+      "required": [
+        "id",
+        "images",
+        "location",
+        "moodAnalysis",
+        "moodText",
+        "recordTime",
+        "user",
+        "weatherInfo"
+      ],
+      "title": "MoodRecord"
+    },
+    "Location": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "location_msg": {
+          "type": "string"
+        },
+        "lonlat": {
+          "type": "string"
+        },
+        "user": {
+          "type": "null"
+        }
+      },
+      "required": ["id", "location_msg", "lonlat", "user"],
+      "title": "Location"
+    },
+    "MoodAnalysis": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "sentiment": {
+          "type": "integer"
+        },
+        "confidence": {
+          "type": "number"
+        },
+        "positiveProb": {
+          "type": "number"
+        },
+        "negativeProb": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "confidence",
+        "id",
+        "negativeProb",
+        "positiveProb",
+        "sentiment"
+      ],
+      "title": "MoodAnalysis"
+    },
+    "User": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "username": {
+          "type": "string",
+          "format": "integer"
+        },
+        "password": {
+          "type": "string",
+          "format": "integer"
+        },
+        "email": {
+          "type": "string"
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": ["createdAt", "email", "id", "password", "username"],
+      "title": "User"
+    },
+    "WeatherInfo": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "text": {
+          "type": "string"
+        },
+        "temp": {
+          "type": "number"
+        },
+        "detail": {
+          "type": "string"
+        },
+        "location": {
+          "$ref": "#/definitions/Location"
+        }
+      },
+      "required": ["detail", "id", "location", "temp", "text"],
+      "title": "WeatherInfo"
+    }
+  }
+}

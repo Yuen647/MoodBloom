@@ -1,0 +1,111 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "#/definitions/ToutiaoAPISchema",
+  "definitions": {
+    "ToutiaoAPISchema": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "reason": {
+          "type": "string"
+        },
+        "result": {
+          "$ref": "#/definitions/Result"
+        },
+        "error_code": {
+          "type": "integer"
+        }
+      },
+      "required": ["error_code", "reason", "result"],
+      "title": "ToutiaoAPISchema"
+    },
+    "Result": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "stat": {
+          "type": "string",
+          "format": "integer"
+        },
+        "data": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Datum"
+          }
+        },
+        "page": {
+          "type": "string",
+          "format": "integer"
+        },
+        "pageSize": {
+          "type": "string",
+          "format": "integer"
+        }
+      },
+      "required": ["data", "page", "pageSize", "stat"],
+      "title": "Result"
+    },
+    "Datum": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "uniquekey": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "date": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "category": {
+          "type": "string"
+        },
+        "author_name": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "qt-uri-protocols": ["https"],
+          "qt-uri-extensions": [".html"]
+        },
+        "thumbnail_pic_s": {
+          "type": "string",
+          "format": "uri",
+          "qt-uri-protocols": ["https"],
+          "qt-uri-extensions": [".png"]
+        },
+        "thumbnail_pic_s02": {
+          "type": "string",
+          "format": "uri",
+          "qt-uri-protocols": ["https"],
+          "qt-uri-extensions": [".jpeg", ".png"]
+        },
+        "thumbnail_pic_s03": {
+          "type": "string",
+          "format": "uri",
+          "qt-uri-protocols": ["https"],
+          "qt-uri-extensions": [".png"]
+        },
+        "is_content": {
+          "type": "string",
+          "format": "integer"
+        }
+      },
+      "required": [
+        "author_name",
+        "category",
+        "date",
+        "is_content",
+        "thumbnail_pic_s",
+        "thumbnail_pic_s02",
+        "title",
+        "uniquekey",
+        "url"
+      ],
+      "title": "Datum"
+    }
+  }
+}

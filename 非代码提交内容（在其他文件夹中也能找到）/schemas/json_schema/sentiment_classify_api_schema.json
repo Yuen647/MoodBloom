@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "#/definitions/SentimentClassifyAPISchema",
+  "definitions": {
+    "SentimentClassifyAPISchema": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "text": {
+          "type": "string"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Item"
+          }
+        }
+      },
+      "required": ["items", "text"],
+      "title": "SentimentClassifyAPISchema"
+    },
+    "Item": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "sentiment": {
+          "type": "integer"
+        },
+        "confidence": {
+          "type": "number"
+        },
+        "positive_prob": {
+          "type": "number"
+        },
+        "negative_prob": {
+          "type": "number"
+        }
+      },
+      "required": ["confidence", "negative_prob", "positive_prob", "sentiment"],
+      "title": "Item"
+    }
+  }
+}

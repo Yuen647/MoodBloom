@@ -1,0 +1,34 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "#/definitions/Txt2PicAPISchema",
+  "definitions": {
+    "Txt2PicAPISchema": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "code": {
+          "type": "integer"
+        },
+        "data": {
+          "$ref": "#/definitions/Data"
+        },
+        "msg": {
+          "type": "string"
+        }
+      },
+      "required": ["code", "data", "msg"],
+      "title": "Txt2PicAPISchema"
+    },
+    "Data": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "uid": {
+          "type": "string"
+        }
+      },
+      "required": ["uid"],
+      "title": "Data"
+    }
+  }
+}

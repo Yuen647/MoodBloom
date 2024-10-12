@@ -1,0 +1,74 @@
+@startuml
+
+class User {
+    - Integer id
+    - String username
+    - String password
+    - String email
+    - LocalDateTime createdAt
+    + List<MoodRecord> moodRecords
+    + List<Location> locations
+}
+
+class MoodRecord {
+    - Integer id
+    - String moodText
+    - LocalDateTime recordTime
+    + User user
+    + Location location
+    + WeatherInfo weatherInfo
+    + MoodAnalysis moodAnalysis
+    + List<UploadImage> images
+    + ModelResponse modelResponse
+}
+
+class Location {
+    - Integer id
+    - String location_msg
+    - String lonlat
+    + User user
+    + List<MoodRecord> moodRecords
+}
+
+class WeatherInfo {
+    - Integer id
+    - String text
+    - Double temp
+    - String detail
+    + List<MoodRecord> moodRecords
+}
+
+class MoodAnalysis {
+    - Integer id
+    - Byte sentiment
+    - BigDecimal confidence
+    - BigDecimal positiveProb
+    - BigDecimal negativeProb
+    + MoodRecord moodRecord
+}
+
+class UploadImage {
+    - Integer id
+    - String imageUrl
+    - LocalDateTime uploadTime
+    + MoodRecord moodRecord
+}
+
+class ModelResponse {
+    - Integer responseId
+    - String responseText
+    - LocalDateTime responseTime
+    + MoodRecord moodRecord
+}
+
+' 定义关系
+User "1" -- "0..*" MoodRecord : has >
+User "1" -- "0..*" Location : associated with >
+MoodRecord "1" -- "1" User : belongs to <
+MoodRecord "1" -- "0..*" UploadImage : has images >
+MoodRecord "1" -- "1" ModelResponse : generates >
+MoodRecord "1" -- "1" MoodAnalysis : analyzes >
+Location "1" -- "0..*" MoodRecord : associated with >
+WeatherInfo "1" -- "0..*" MoodRecord : provides weather for >
+
+@enduml

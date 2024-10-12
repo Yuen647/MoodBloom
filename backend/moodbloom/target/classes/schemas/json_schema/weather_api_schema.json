@@ -1,0 +1,148 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "#/definitions/WeatherAPISchema",
+  "definitions": {
+    "WeatherAPISchema": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "status": {
+          "type": "integer"
+        },
+        "result": {
+          "$ref": "#/definitions/Result"
+        }
+      },
+      "required": ["result", "status"],
+      "title": "WeatherAPISchema"
+    },
+    "Result": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "location": {
+          "$ref": "#/definitions/Location"
+        },
+        "realtime": {
+          "$ref": "#/definitions/Realtime"
+        },
+        "last_update": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": ["last_update", "location", "realtime"],
+      "title": "Result"
+    },
+    "Location": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "areacode": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "country": {
+          "type": "string"
+        },
+        "path": {
+          "type": "string"
+        }
+      },
+      "required": ["areacode", "country", "name", "path"],
+      "title": "Location"
+    },
+    "Realtime": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "text": {
+          "type": "string"
+        },
+        "code": {
+          "type": "string"
+        },
+        "temp": {
+          "type": "number"
+        },
+        "feels_like": {
+          "type": "integer"
+        },
+        "rh": {
+          "type": "integer"
+        },
+        "wind_class": {
+          "type": "string"
+        },
+        "wind_speed": {
+          "type": "number"
+        },
+        "wind_dir": {
+          "type": "string"
+        },
+        "wind_angle": {
+          "type": "integer"
+        },
+        "prec": {
+          "type": "integer"
+        },
+        "prec_time": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "clouds": {
+          "type": "integer"
+        },
+        "vis": {
+          "type": "integer"
+        },
+        "pressure": {
+          "type": "integer"
+        },
+        "dew": {
+          "type": "integer"
+        },
+        "uv": {
+          "type": "integer"
+        },
+        "snow": {
+          "type": "integer"
+        },
+        "weight": {
+          "type": "integer"
+        },
+        "brief": {
+          "type": "string"
+        },
+        "detail": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "brief",
+        "clouds",
+        "code",
+        "detail",
+        "dew",
+        "feels_like",
+        "prec",
+        "prec_time",
+        "pressure",
+        "rh",
+        "snow",
+        "temp",
+        "text",
+        "uv",
+        "vis",
+        "weight",
+        "wind_angle",
+        "wind_class",
+        "wind_dir",
+        "wind_speed"
+      ],
+      "title": "Realtime"
+    }
+  }
+}
