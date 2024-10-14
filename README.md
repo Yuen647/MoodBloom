@@ -2,7 +2,7 @@
 
 一款智能日记系统，可以写点东西~
 
-**项目地址：**https://github.com/Yuen647/MoodBloom
+**项目地址：** https://github.com/Yuen647/MoodBloom
 
 **演示视频**
 
