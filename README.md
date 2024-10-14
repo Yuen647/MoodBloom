@@ -2,6 +2,8 @@
 
 一款智能日记系统，可以写点东西~
 
+**项目地址：**https://github.com/Yuen647/MoodBloom
+
 **演示视频**
 
 <center><img src="./doc/res/demo.gif"></center>
