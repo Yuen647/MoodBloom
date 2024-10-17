@@ -2,7 +2,9 @@
 
 [TOC]
 
-### 项目地址：https://github.com/Yuen647/MoodBloom/
+### 项目仓库地址：https://github.com/Yuen647/MoodBloom/
+
+### 项目演示链接：https://124.222.156.13/
 
 ### 1. 项目概述
 
@@ -107,6 +109,8 @@
 <img src="./res/actDiagram.png" style="zoom:50%;" />
 
 ### 3. 技术栈与工具
+
+![](./res/tech.png)
 
 #### 3.1 技术栈
 
